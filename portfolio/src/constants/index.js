@@ -185,7 +185,7 @@ export const myProjects = [
         desc: 'This 3D Portfolio is built using React.js and Three.js, featuring a sleek black-and-white terminal-style theme that highlights projects, skills, and achievements with immersive 3D interactive elements. Users can navigate a visually engaging environment, explore portfolio items, and interact with animations that enhance the presentation of content.',
         subdesc:
             'Built with React.js and Three.js, the portfolio delivers a modern, visually striking, and fully interactive user experience, combining 3D effects with a minimalist terminal-inspired design.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        href: 'https://portfolio-beta-drab-76.vercel.app',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/logo.png',
         logoStyle: {
