@@ -18,14 +18,13 @@ export default function TerminalWriter() {
 
     const COMMANDS = {
         "npm run skills": [
-            "Frontend: React, Next.js, TailwindCSS",
+            "Frontend: React, TailwindCSS",
             "Backend: Node.js, Express, MongoDB",
-            "Extras: Git, REST APIs, Docker, CI/CD",
+            "Extras: Git, REST APIs",
         ],
         "npm run contact": [
             "Email: msizajst@example.com",
-            "LinkedIn: linkedin.com/in/your-profile",
-            "GitHub: github.com/yourusername",
+            "GitHub: github.com/coffee-driven-dev007",
             "Phone: +27-67-004-5453",
         ],
         "npm run hire": [
