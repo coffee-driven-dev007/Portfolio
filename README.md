@@ -1,80 +1,75 @@
-<div align="center">
-
 # 👨‍💻 James Matsheni
 
-### Full-Stack Developer | Real-Time Systems Engineer
+## Full-Stack Developer | Real-Time Systems Engineer
 
 Building scalable MERN applications, real-time systems, AI-powered platforms, and secure payment integrations.
 
-🌐 **Live Portfolio**
-https://portfolio-beta-drab-76.vercel.app
+🌐 **Live Portfolio:** https://portfolio-beta-drab-76.vercel.app
 
-💼 **LinkedIn**
-https://www.linkedin.com/in/james-matsheni-4bb7643b9
+💼 **LinkedIn:** https://www.linkedin.com/in/james-matsheni-4bb7643b9
 
-🐙 **GitHub**
-https://github.com/coffee-driven-dev007
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge\&logo=stripe)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai)
-
-</div>
+🐙 **GitHub:** https://github.com/coffee-driven-dev007
 
 ---
 
 # 🚀 Overview
 
-This project is my personal developer portfolio built to showcase my technical skills, engineering mindset, and production-style projects through an immersive 3D experience.
+This repository contains my personal developer portfolio — an interactive 3D web experience built to showcase:
 
-The portfolio combines modern frontend technologies, interactive animations, and a terminal-inspired interface to create an engaging user experience while maintaining performance, responsiveness, and scalability.
+* Production-style full-stack applications
+* Real-time and concurrent systems
+* AI-powered workflows
+* Payment integrations
+* Scalable backend architecture
 
-Rather than simply displaying projects, the goal was to create an experience that reflects how I approach software engineering: building systems that are interactive, reliable, and designed for real users.
+The goal is not only to display projects, but to demonstrate how I approach software engineering: building systems that remain reliable when real users, real traffic, and real-world constraints are involved.
 
 ---
 
 # ✨ Features
 
-* Interactive 3D environment powered by Three.js
-* Terminal-inspired navigation experience
+* Interactive 3D experience powered by Three.js
+* Terminal-inspired navigation and UI
 * Fully responsive design
 * Smooth animations and transitions
 * Dynamic project showcase
 * Skills and technology overview
 * Contact and social integration
-* Performance-optimized architecture
-* Modern UI/UX design
-* Production-ready deployment
+* Performance-focused architecture
+* Production deployment via Vercel
 
 ---
 
 # 📸 Screenshots
 
-> Replace these placeholder images with your own screenshots.
+> Replace these placeholders with actual screenshots.
+
+```text
+screenshots/
+├── homepage.png
+├── projects.png
+└── terminal.png
+```
 
 ### Homepage
 
-![Homepage](./homepage.png)
+![Homepage](./screenshots/homepage.png)
 
 ### Projects Section
 
-![Projects](./projects.png)
+![Projects](./screenshots/projects.png)
 
 ### Terminal Experience
 
-![Terminal](./terminal.png)
+![Terminal](./screenshots/terminal.png)
 
 ---
 
 # 💡 Why I Built This
 
-Most developer portfolios focus only on displaying projects.
+Most developer portfolios simply list projects.
 
-I wanted to build something that demonstrates both technical ability and user experience design.
-
-This project allowed me to explore:
+I wanted a portfolio that demonstrates both technical depth and product thinking:
 
 * 3D web experiences
 * Interactive interfaces
@@ -83,13 +78,13 @@ This project allowed me to explore:
 * Responsive design
 * Modern deployment workflows
 
-The result is a portfolio that feels more like a product than a traditional resume website.
+The result is a portfolio that feels more like a product than a traditional portfolio website.
 
 ---
 
 # 🏗 Architecture Highlights
 
-The portfolio was designed using modern frontend engineering principles:
+The portfolio is structured using modern frontend engineering principles:
 
 * Component-based React architecture
 * Reusable UI components
@@ -98,7 +93,25 @@ The portfolio was designed using modern frontend engineering principles:
 * Responsive design patterns
 * Scalable folder structure
 * Clean separation of concerns
-* Production deployment through Vercel
+* Vercel production deployment
+
+## High-Level Architecture
+
+```text
+User
+ │
+ ▼
+React + Three.js Frontend
+ │
+ ▼
+Routing / State Management
+ │
+ ▼
+Project Data + External APIs
+ │
+ ▼
+Vercel Deployment Platform
+```
 
 ---
 
@@ -131,14 +144,11 @@ The portfolio was designed using modern frontend engineering principles:
 
 # 📂 Featured Projects
 
----
-
 ## 🎬 Popcorn Palace — Real-Time Booking System
 
-**Live Demo:**
-https://booking-app-five-mu.vercel.app
+**Live Demo:** https://booking-app-five-mu.vercel.app
 
-A full-stack movie booking platform designed to handle real-world booking scenarios and concurrent users.
+A full-stack movie booking platform designed to handle concurrent users and prevent double bookings.
 
 ### Key Features
 
@@ -152,7 +162,7 @@ A full-stack movie booking platform designed to handle real-world booking scenar
 ### Engineering Challenges Solved
 
 * Preventing double bookings
-* Maintaining seat state consistency
+* Maintaining seat-state consistency
 * Handling concurrent user actions
 * Reliable payment processing
 
@@ -164,10 +174,9 @@ MongoDB • Express • React • Node.js • Stripe • Clerk • Inngest
 
 ## ✏️ ThinkBoard — Real-Time Collaborative Whiteboard
 
-**Live Demo:**
-https://real-time-white-board-wheat.vercel.app
+**Live Demo:** https://real-time-white-board-wheat.vercel.app
 
-A collaborative whiteboard that enables multiple users to draw simultaneously using WebSockets.
+A collaborative whiteboard that enables multiple users to draw simultaneously through WebSockets.
 
 ### Key Features
 
@@ -179,10 +188,10 @@ A collaborative whiteboard that enables multiple users to draw simultaneously us
 
 ### Engineering Challenges Solved
 
-* Live synchronization
 * Low-latency communication
 * Shared state consistency
-* Concurrent editing
+* Concurrent editing synchronization
+* Efficient event broadcasting
 
 ### Tech Stack
 
@@ -192,15 +201,14 @@ React • Node.js • Socket.IO • HTML5 Canvas • JavaScript
 
 ## ⚽ Pitchside — AI Content Platform
 
-**Live Demo:**
-https://soccer-blog-nine.vercel.app
+**Live Demo:** https://soccer-blog-nine.vercel.app
 
 An AI-powered blogging platform featuring automated content generation and moderation workflows.
 
 ### Key Features
 
-* OpenAI content generation
-* Admin review process
+* OpenAI article generation
+* Admin review workflow
 * Content management system
 * Secure authentication
 * Publishing workflow
@@ -213,8 +221,7 @@ MongoDB • Express • React • Node.js • OpenAI API
 
 ## 🍗 KFC Delivery Platform
 
-**Live Demo:**
-https://kfc-delivery-application.vercel.app
+**Live Demo:** https://kfc-delivery-application.vercel.app
 
 A food ordering and delivery application inspired by modern restaurant platforms.
 
@@ -236,7 +243,7 @@ MongoDB • Express • React • Node.js • Redux • Stripe
 
 I enjoy building systems that remain reliable under real-world conditions.
 
-Areas of focus include:
+## Areas of Focus
 
 * Real-time systems
 * Backend architecture
@@ -251,9 +258,42 @@ Areas of focus include:
 
 ---
 
+# 🔍 Key Engineering Decisions
+
+### Why React?
+
+Component reusability, maintainability, and a mature ecosystem for building scalable interfaces.
+
+### Why Three.js?
+
+To create a memorable, interactive portfolio experience that demonstrates advanced frontend capabilities.
+
+### Why Tailwind CSS?
+
+Rapid development with consistent design tokens and low CSS maintenance overhead.
+
+### Why Vercel?
+
+Fast deployment, excellent developer experience, and optimized frontend hosting.
+
+---
+
+# 📊 Performance
+
+> Replace with your real Lighthouse scores.
+
+| Metric         | Score |
+| -------------- | ----- |
+| Performance    | 96    |
+| Accessibility  | 100   |
+| Best Practices | 100   |
+| SEO            | 98    |
+
+---
+
 # 📈 Current Learning Goals
 
-I'm continuously expanding my knowledge in:
+I’m actively deepening my knowledge in:
 
 * System Design
 * Distributed Systems
@@ -268,31 +308,31 @@ I'm continuously expanding my knowledge in:
 
 # 🚀 Local Development
 
-Clone the repository:
+## Clone the Repository
 
 ```bash
 git clone https://github.com/coffee-driven-dev007/Portfolio.git
 ```
 
-Navigate to the project:
+## Navigate into the Project
 
 ```bash
 cd Portfolio
 ```
 
-Install dependencies:
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run locally:
+## Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+## Build for Production
 
 ```bash
 npm run build
@@ -300,26 +340,42 @@ npm run build
 
 ---
 
-# 🤝 Connect With Me
+# 🗺 Roadmap
 
-📧 Email
-[msizajst@gmail.com](mailto:msizajst@gmail.com)
-
-🌐 Portfolio
-https://portfolio-beta-drab-76.vercel.app
-
-💼 LinkedIn
-https://www.linkedin.com/in/james-matsheni-4bb7643b9
-
-🐙 GitHub
-https://github.com/coffee-driven-dev007
+* [ ] Add architecture diagrams
+* [ ] Publish technical case studies
+* [ ] Add Lighthouse reports
+* [ ] Add developer blog section
+* [ ] Add dark/light theme toggle
+* [ ] Add analytics dashboard
+* [ ] Add automated testing
+* [ ] Add CI/CD workflow
 
 ---
 
-<div align="center">
+# 📈 Project Statistics
+
+| Metric              | Value                                                 |
+| ------------------- | ----------------------------------------------------- |
+| Featured Projects   | 4+                                                    |
+| Technologies Used   | 10+                                                   |
+| Deployment Platform | Vercel                                                |
+| Focus Areas         | Real-Time Systems, AI, Payments, Backend Architecture |
+
+---
+
+# 🤝 Connect With Me
+
+📧 Email: [msizajst@gmail.com](mailto:msizajst@gmail.com)
+
+🌐 Portfolio: https://portfolio-beta-drab-76.vercel.app
+
+💼 LinkedIn: https://www.linkedin.com/in/james-matsheni-4bb7643b9
+
+🐙 GitHub: https://github.com/coffee-driven-dev007
+
+---
 
 ## Building reliable systems, not just features.
 
 ⭐ If you found this project interesting, feel free to connect, follow, or explore my other repositories.
-
-</div>
