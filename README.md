@@ -88,7 +88,7 @@ The portfolio is structured using modern frontend engineering principles:
 
 ## High-Level Architecture
 
-```text
+
 User
  │
  ▼
@@ -102,7 +102,7 @@ Project Data + External APIs
  │
  ▼
 Vercel Deployment Platform
-```
+
 
 ---
 
@@ -267,20 +267,6 @@ Rapid development with consistent design tokens and low CSS maintenance overhead
 
 Fast deployment, excellent developer experience, and optimized frontend hosting.
 
----
-
-# 📊 Performance
-
-> Replace with your real Lighthouse scores.
-
-| Metric         | Score |
-| -------------- | ----- |
-| Performance    | 96    |
-| Accessibility  | 100   |
-| Best Practices | 100   |
-| SEO            | 98    |
-
----
 
 # 📈 Current Learning Goals
 
