@@ -42,22 +42,13 @@ The goal is not only to display projects, but to demonstrate how I approach soft
 
 # 📸 Screenshots
 
-> Replace these placeholders with actual screenshots.
-
-```text
-screenshots/
-├── homepage.png
-├── projects.png
-└── terminal.png
-```
-
 ### Homepage
 
 ![Homepage](./homepage.png)
 
 ### Projects Section
 
-![Projects](./projects.png)
+![Projects](./project.png)
 
 ### Terminal Experience
 
