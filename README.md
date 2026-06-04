@@ -2,181 +2,324 @@
 
 # 👨‍💻 James Matsheni
 
-### Interactive 3D Developer Portfolio
+### Full-Stack Developer | Real-Time Systems Engineer
 
-A modern developer portfolio showcasing full-stack applications, real-time systems, AI integrations, and scalable backend solutions.
+Building scalable MERN applications, real-time systems, AI-powered platforms, and secure payment integrations.
 
-🌐 **Live Demo:**  
+🌐 **Live Portfolio**
 https://portfolio-beta-drab-76.vercel.app
 
-[View Portfolio](https://portfolio-beta-drab-76.vercel.app)
+💼 **LinkedIn**
+https://www.linkedin.com/in/james-matsheni-4bb7643b9
+
+🐙 **GitHub**
+https://github.com/coffee-driven-dev007
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge\&logo=stripe)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai)
 
 </div>
 
 ---
 
-## 🚀 Overview
+# 🚀 Overview
 
-This project is my personal developer portfolio built to showcase my technical skills, engineering approach, and featured projects through an immersive 3D experience.
+This project is my personal developer portfolio built to showcase my technical skills, engineering mindset, and production-style projects through an immersive 3D experience.
 
-The portfolio combines modern frontend technologies with interactive animations and a terminal-inspired interface to create an engaging user experience while maintaining performance and responsiveness across devices.
+The portfolio combines modern frontend technologies, interactive animations, and a terminal-inspired interface to create an engaging user experience while maintaining performance, responsiveness, and scalability.
 
----
-
-## ✨ Features
-
-- Interactive 3D experience powered by Three.js
-- Terminal-inspired navigation and design
-- Fully responsive layout
-- Smooth animations and transitions
-- Project showcase section
-- Skills and technology overview
-- Contact and social links
-- Performance-optimized architecture
-- Modern UI/UX design
+Rather than simply displaying projects, the goal was to create an experience that reflects how I approach software engineering: building systems that are interactive, reliable, and designed for real users.
 
 ---
 
-## 🛠 Tech Stack
+# ✨ Features
 
-### Frontend
-- React.js
-- JavaScript (ES6+)
-- Three.js
-- Tailwind CSS
-- HTML5
-- CSS3
-
-### Deployment
-- Vercel
-- GitHub
-
-### Development Tools
-- Git
-- GitHub
-- VS Code
-- NPM
+* Interactive 3D environment powered by Three.js
+* Terminal-inspired navigation experience
+* Fully responsive design
+* Smooth animations and transitions
+* Dynamic project showcase
+* Skills and technology overview
+* Contact and social integration
+* Performance-optimized architecture
+* Modern UI/UX design
+* Production-ready deployment
 
 ---
 
-## 📂 Featured Projects
+# 📸 Screenshots
 
-### 🎬 Popcorn Palace — Real-Time Booking System
+> Replace these placeholder images with your own screenshots.
+
+### Homepage
+
+![Homepage](./homepage.png)
+
+### Projects Section
+
+![Projects](./projects.png)
+
+### Terminal Experience
+
+![Terminal](./terminal.png)
+
+---
+
+# 💡 Why I Built This
+
+Most developer portfolios focus only on displaying projects.
+
+I wanted to build something that demonstrates both technical ability and user experience design.
+
+This project allowed me to explore:
+
+* 3D web experiences
+* Interactive interfaces
+* Component-driven architecture
+* Performance optimization
+* Responsive design
+* Modern deployment workflows
+
+The result is a portfolio that feels more like a product than a traditional resume website.
+
+---
+
+# 🏗 Architecture Highlights
+
+The portfolio was designed using modern frontend engineering principles:
+
+* Component-based React architecture
+* Reusable UI components
+* Three.js scene management
+* Optimized asset loading
+* Responsive design patterns
+* Scalable folder structure
+* Clean separation of concerns
+* Production deployment through Vercel
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+* React.js
+* JavaScript (ES6+)
+* Three.js
+* Tailwind CSS
+* HTML5
+* CSS3
+
+## Backend & APIs
+
+* REST APIs
+* OpenAI API Integration
+* Stripe Integration
+
+## Tools & Deployment
+
+* Git
+* GitHub
+* Vercel
+* VS Code
+* NPM
+
+---
+
+# 📂 Featured Projects
+
+---
+
+## 🎬 Popcorn Palace — Real-Time Booking System
+
+**Live Demo:**
+https://booking-app-five-mu.vercel.app
 
 A full-stack movie booking platform designed to handle real-world booking scenarios and concurrent users.
 
-#### Highlights
-- Real-time seat availability
-- Seat-locking mechanism
-- Stripe payment integration
-- Authentication and authorization
-- Admin dashboard
-- Event-driven workflows
+### Key Features
 
-**Tech:** MongoDB • Express • React • Node.js • Stripe • Clerk • Inngest
+* Real-time seat availability
+* Seat-locking mechanism
+* Stripe payment integration
+* User authentication
+* Admin dashboard
+* Event-driven workflows
 
----
+### Engineering Challenges Solved
 
-### ✏️ ThinkBoard — Real-Time Collaborative Whiteboard
+* Preventing double bookings
+* Maintaining seat state consistency
+* Handling concurrent user actions
+* Reliable payment processing
 
-A collaborative whiteboard allowing multiple users to draw simultaneously through real-time synchronization.
+### Tech Stack
 
-#### Highlights
-- Multi-user collaboration
-- WebSocket communication
-- Real-time drawing synchronization
-- Export to PNG and PDF
-- Canvas-based rendering
-
-**Tech:** React • Socket.IO • Node.js • HTML5 Canvas
+MongoDB • Express • React • Node.js • Stripe • Clerk • Inngest
 
 ---
 
-### ⚽ Pitchside — AI Content Platform
+## ✏️ ThinkBoard — Real-Time Collaborative Whiteboard
 
-An AI-powered soccer blogging platform featuring content generation and moderation workflows.
+**Live Demo:**
+https://real-time-white-board-wheat.vercel.app
 
-#### Highlights
-- AI article generation
-- Admin review workflow
-- Content management system
-- Secure authentication
-- Dynamic content delivery
+A collaborative whiteboard that enables multiple users to draw simultaneously using WebSockets.
 
-**Tech:** MERN Stack • OpenAI API
+### Key Features
 
----
+* Multi-user collaboration
+* Real-time synchronization
+* Drawing and erasing tools
+* Export to PNG
+* Export to PDF
 
-### 🍗 KFC Delivery Platform
+### Engineering Challenges Solved
 
-A food ordering and delivery application inspired by modern restaurant ordering systems.
+* Live synchronization
+* Low-latency communication
+* Shared state consistency
+* Concurrent editing
 
-#### Highlights
-- Shopping cart functionality
-- Stripe payment integration
-- Order management system
-- Admin dashboard
-- Authentication system
+### Tech Stack
 
-**Tech:** MERN Stack • Redux • Stripe
+React • Node.js • Socket.IO • HTML5 Canvas • JavaScript
 
 ---
 
-## 🧠 Engineering Focus
+## ⚽ Pitchside — AI Content Platform
 
-My development approach focuses on building systems that remain reliable under real-world conditions.
+**Live Demo:**
+https://soccer-blog-nine.vercel.app
 
-Areas of interest include:
+An AI-powered blogging platform featuring automated content generation and moderation workflows.
 
-- Real-time systems
-- Backend architecture
-- API design
-- Concurrency handling
-- State consistency
-- Authentication systems
-- Payment integrations
-- Event-driven architecture
-- AI-powered applications
+### Key Features
 
----
+* OpenAI content generation
+* Admin review process
+* Content management system
+* Secure authentication
+* Publishing workflow
 
-## 📸 Preview
+### Tech Stack
 
-![Portfolio Preview](https://portfolio-beta-drab-76.vercel.app)
-
-> Visit the live portfolio for the complete interactive experience.
+MongoDB • Express • React • Node.js • OpenAI API
 
 ---
 
-## 📈 Future Improvements
+## 🍗 KFC Delivery Platform
 
-- Project architecture diagrams
-- Interactive case studies
-- Performance metrics dashboard
-- Blog and technical writing section
-- Expanded system design showcase
+**Live Demo:**
+https://kfc-delivery-application.vercel.app
+
+A food ordering and delivery application inspired by modern restaurant platforms.
+
+### Key Features
+
+* Shopping cart
+* Order management
+* Stripe payments
+* Authentication system
+* Admin dashboard
+
+### Tech Stack
+
+MongoDB • Express • React • Node.js • Redux • Stripe
 
 ---
 
-## 🤝 Connect With Me
+# 🧠 Engineering Focus
 
-📧 Email: **msizajst@gmail.com**
+I enjoy building systems that remain reliable under real-world conditions.
 
-💼 LinkedIn:  
+Areas of focus include:
+
+* Real-time systems
+* Backend architecture
+* API design
+* Authentication systems
+* Payment integrations
+* Concurrency handling
+* State consistency
+* Event-driven architecture
+* AI-powered applications
+* Scalable web platforms
+
+---
+
+# 📈 Current Learning Goals
+
+I'm continuously expanding my knowledge in:
+
+* System Design
+* Distributed Systems
+* Cloud Infrastructure
+* Docker
+* Kubernetes
+* CI/CD Pipelines
+* Performance Optimization
+* Software Architecture Patterns
+
+---
+
+# 🚀 Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/coffee-driven-dev007/Portfolio.git
+```
+
+Navigate to the project:
+
+```bash
+cd Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+# 🤝 Connect With Me
+
+📧 Email
+[msizajst@gmail.com](mailto:msizajst@gmail.com)
+
+🌐 Portfolio
+https://portfolio-beta-drab-76.vercel.app
+
+💼 LinkedIn
 https://www.linkedin.com/in/james-matsheni-4bb7643b9
 
-🐙 GitHub:  
+🐙 GitHub
 https://github.com/coffee-driven-dev007
-
-🌐 Portfolio:  
-https://portfolio-beta-drab-76.vercel.app
 
 ---
 
 <div align="center">
 
-### Building reliable systems, not just features.
+## Building reliable systems, not just features.
 
-⭐ Feel free to explore the project and connect with me.
+⭐ If you found this project interesting, feel free to connect, follow, or explore my other repositories.
 
 </div>
