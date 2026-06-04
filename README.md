@@ -53,15 +53,15 @@ screenshots/
 
 ### Homepage
 
-![Homepage](./screenshots/homepage.png)
+![Homepage](./homepage.png)
 
 ### Projects Section
 
-![Projects](./screenshots/projects.png)
+![Projects](./projects.png)
 
 ### Terminal Experience
 
-![Terminal](./screenshots/terminal.png)
+![Terminal](./terminal.png)
 
 ---
 
